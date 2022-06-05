@@ -21,6 +21,11 @@ function App({
         }}
       >
 
+      <header>
+        <p><a href="https://github.com/jordisan/report-dashboard-nextjs" target="_blank" rel="noreferrer">report-dashboard-nextjs</a> at GitHub</p>
+        <hr />
+      </header>
+
       <Head>
         <title>Report dashboard</title>
         <meta charSet="utf-8" />
@@ -31,7 +36,7 @@ function App({
 
       <footer>
         <hr />
-        <p><a href="https://github.com/jordisan/reports-dashboard-nextjs" target="_blank" rel="noreferrer">reports-dashboard-nextjs</a> at GitHub</p>
+        <p><a href="https://github.com/jordisan/report-dashboard-nextjs" target="_blank" rel="noreferrer">report-dashboard-nextjs</a> at GitHub</p>
       </footer>
 
       </MantineProvider>
