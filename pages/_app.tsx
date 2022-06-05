@@ -22,7 +22,7 @@ function App({
       >
 
       <header>
-        <p class="source"><a href="https://github.com/jordisan/report-dashboard-nextjs" target="_blank" rel="noreferrer">report-dashboard-nextjs</a> at GitHub</p>
+        <p className="source"><a href="https://github.com/jordisan/report-dashboard-nextjs" target="_blank" rel="noreferrer">report-dashboard-nextjs</a> at GitHub</p>
         <hr />
       </header>
 
@@ -36,7 +36,7 @@ function App({
 
       <footer>
         <hr />
-        <p class="source"><a href="https://github.com/jordisan/report-dashboard-nextjs" target="_blank" rel="noreferrer">report-dashboard-nextjs</a> at GitHub</p>
+        <p className="source"><a href="https://github.com/jordisan/report-dashboard-nextjs" target="_blank" rel="noreferrer">report-dashboard-nextjs</a> at GitHub</p>
       </footer>
 
       </MantineProvider>
