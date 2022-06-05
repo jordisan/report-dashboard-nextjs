@@ -25,7 +25,7 @@ body {
     }
 }
 
-header {
+main header {
 
     background-color: #053f52;
     margin-bottom: 1.5rem;
@@ -100,4 +100,8 @@ p {
 
 figure {
     margin: 0;
+}
+
+.source {
+    text-align: center;
 }
