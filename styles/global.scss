@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "SF UI Text";
+    src: url("/fonts/SFUIText/SFUIText-Regular.ttf");
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "SF UI Text";
+    src: url("/fonts/SFUIText/SFUIText-Bold.ttf");
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+}
+
+$max-width-mobile: 640px;
+
+body {
+    padding: 1.0rem 2.0rem;
+    font-size: 14px;
+    font-family: "SF UI Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+    @media screen and (max-width: $max-width-mobile) {
+        padding: 12px;
+    }
+}
+
+header {
+
+    background-color: #053f52;
+    margin-bottom: 1.5rem;
+    padding: .4rem 1.0rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+    & > * {
+        vertical-align: middle;
+    }
+
+    #logo {
+        margin-right: 1.0rem;
+    }
+
+    h1 {
+        margin: .2rem 0;
+        font-size: 18px;
+    }
+
+    #logo, h1 {
+        display: inline-block;
+        color: #fff;
+    }
+}
+
+section {
+    clear: left;
+
+    h2 {
+        margin-top: 3.0rem;
+        margin-bottom: 1.0rem;
+
+        @media screen and (max-width: $max-width-mobile) {
+            position: sticky;
+            top: 45px;
+            z-index: 20;
+            background-color: #fff;
+        }
+    }
+
+    &:first-child h2 {
+        margin-top: 0;
+    }
+}
+
+h1, h2 {
+    font-weight: normal;
+}
+
+h2 {
+    color: #678;
+    font-size: 1.0rem;
+    border-bottom: solid 1px #9ab;
+}
+
+p {
+    margin: .2rem 0 .2rem 0;
+}
+
+.profile .picture {
+    display: inline-block;
+    line-height: 1;
+    margin-right: .2rem;
+    border: solid 1px #999;
+    border-radius: 50%;
+    vertical-align: middle;
+    padding: 2px;
+    overflow: hidden;
+}
+
+figure {
+    margin: 0;
+}

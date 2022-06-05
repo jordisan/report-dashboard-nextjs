@@ -1,0 +1,32 @@
+.starred {
+    white-space: nowrap;
+    display: inline-block;
+
+    & > * {
+        vertical-align: middle;
+    }
+
+    button {
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        color: #666;
+        font-size: inherit;
+        padding: 0;
+
+        & > * {
+            vertical-align: middle;
+        }
+    }
+
+    .label {
+        margin-left: .3rem;
+    }
+}
+
+.starred_yes {
+    .star, .label {
+        color: #857f0c;
+    }
+}
+    
