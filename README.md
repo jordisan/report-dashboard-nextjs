@@ -1,6 +1,14 @@
 # Reports Dashboard with Next.js
 
-Deployed to https://reports-dashboard-nextjs.vercel.app/
+Deployed to https://report-dashboard-nextjs.vercel.app/
+
+Example project of a dashboard showing different reports, using Next.js / TypeScript / Redux
+
+### Technical details
+
+* Next.JS with TypeScript
+* Redux toolkit for state
+* Mantine UI library (for example)
 
 ## Assumptions
 
@@ -14,13 +22,6 @@ Deployed to https://reports-dashboard-nextjs.vercel.app/
 ## Mockup
 
  ![Balsamiq mockup](/public/images/mockups.png)
-
-### Technical decissions
-
-* Next.JS with TypeScript
-* Redux toolkit for state
-* Mantine UI library (for example)
-
 
 ## ToDo
 
